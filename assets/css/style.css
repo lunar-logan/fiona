@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+* {
+	/*outline: solid 1px red; 	*/
+}
+
+
+.root {
+	width: 100%;
+	/*background-color: #ccc;*/
+	overflow: auto;
+}
+
+#root-header {
+	/*background-color: green;*/
+}
+
+#root-header #logo {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	width: 120px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+
+#main-container {
+	background-image: url('../img/back1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: auto;
+
+	/*border: solid 1px red;*/
+	min-height: 600px; /** JUST FOR DEBUGGING ***/
+}
+
+#main-container #desc {
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	/*border: solid 1px;*/
+	overflow: auto;
+	width: 54%;
+	/*padding: 3.2%;*/
+	margin-top: 5%;
+	margin-left: 5%;
+	height: 100%;
+	color: #ECECEC;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+#desc #main-desc {
+	font-size: 65px;
+	text-shadow: 0px 0px 16px #000;
+}
+
+#desc #sub-desc {
+	font-size: 20px;
+	text-shadow: 0px 0px 2px #000;
+}
+
+#desc #actions {
+	overflow: auto;
+	margin-top: 20px;
+}
+
+a.btn {
+	text-decoration: none;
+	color: #fff;
+	background-color: #0AD147;
+	margin-right: 8px;
+	float: left;
+	padding: 8px;
+	border-radius: 4px;
+	/*text-shadow: 0px 0px 2px #424242;*/
+}
+.btn.green {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100;Blue+3D+%2315 */
+background: #00b7ea; /* Old browsers */
+background: -moz-linear-gradient(top, #00b7ea 0%, #009ec3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #00b7ea 0%,#009ec3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
+border: solid 1px #015B73;
+}
+
+.btn.grey {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb83fa+0,e93cec+100;Pink+3D+%232 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233 */
+background: #fcfff4; /* Old browsers */
+background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+border: solid 1px #6A6A6A;
+color: #6A6A6A;
+}
+
+
+#footer {
+	background-color: #2A2A2A;
+	color: #AFAFAF;
+}
+
+#footer #social {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	overflow: auto;
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: bold;*/
+	font-size: 12px;
+	padding-top: 48px;
+	padding-bottom: 20px;
+}
+
+#footer #social a {
+	text-decoration: none;
+	color: #555555;
+}
+
+#social-icons {
+	margin-top: 10px;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+#social-icons a {
+	float: left;
+	display: block;
+	margin-right: 20px;
+}
+
+#footer #copy {
+	text-align: center;
+	background-color: #1A1A1A;
+	border-top: solid 1px #101010;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+}
+
+.container {
+	/*border: solid 1px green;*/
+	overflow: auto;
+	background-color: #FF0074;
+	color: #fff;
+	/*padding-top: 32px;*/
+	padding-bottom: 32px;
+
+}
+.container h1 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.message-container {
+	border: solid 1px #9B0046;
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	padding: 16px;
+	border-radius: 4px;
+	background-color: #BB0055;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	display: none;
+}
+.form-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 342px;
+	/*border: dashed 1px; */
+	margin-bottom: 32px;
+}
+
+input[type="text"] {
+	border: none;
+	width: 320px;
+	padding: 8px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 4px;
+	margin-bottom: 4px;
+}
+
+input[type="submit"] {
+	border: none;
+	width: 336px;
+	padding: 8px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 4px;
+	margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 850px) {
+    /* For mobile phones: */
+    #main-container #desc {
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		color: #ECECEC;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	#desc #actions {
+		margin-left: auto;
+		margin-right: auto;
+		width: 330px;
+	}
+
+}
